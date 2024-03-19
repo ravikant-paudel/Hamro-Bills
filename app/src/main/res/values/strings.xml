@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Hamro Bill</string>
+    <string name="new_event">New Event</string>
+    <string name="event_list">Event List</string>
+    <string name="add_event">Add Event</string>
+    <string name="submit_event">Submit Event</string>
+    <string name="back_button">Back</string>
 </resources>
