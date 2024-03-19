@@ -16,7 +16,6 @@ fun HamroBillApp() {
     ) {
         mainGraph(navController = rootController)
         addEventGraph(navController = rootController)
-
     }
 
 
