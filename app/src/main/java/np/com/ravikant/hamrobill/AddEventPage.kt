@@ -30,7 +30,8 @@ fun AddEventPage(navController: NavController) {
                 Text("Add Event")
             }, navigateUp = {
                 navController.navigateUp()
-            }
+            },
+            canNavigateBack = true,
         )
     }) {
         Text("I am here at AddEvent Screen-- P", modifier = Modifier.padding(it))
