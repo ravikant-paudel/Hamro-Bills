@@ -18,10 +18,6 @@ import androidx.navigation.compose.composable
 
 const val MAIN_GRAPH_ROUTE = "main-graph"
 
-//fun NavController.navigateToMainGraph() {
-//    this.navigate(MAIN_GRAPH_ROUTE)
-//}
-
 fun NavGraphBuilder.mainGraph(navController: NavController) {
     composable(MAIN_GRAPH_ROUTE) {
         MainScreen(navController = navController)
@@ -35,8 +31,8 @@ fun MainScreen(navController: NavController) {
         topBar = {
             HamroBillAppBar(title = {
                 Text("Hamro Bill")
-            },
-                navigateUp = { })
+            }
+                ){ }
         },
         floatingActionButton = {
             FloatingActionButton(onClick = {

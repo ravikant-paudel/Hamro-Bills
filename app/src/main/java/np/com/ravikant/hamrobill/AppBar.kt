@@ -20,7 +20,7 @@ fun HamroBillAppBar(
     modifier: Modifier = Modifier,
     title: @Composable () -> Unit,
     canNavigateBack: Boolean = false,
-    navigateUp: () -> Unit,
+    navigateUp: (() -> Unit)? = null,
 ) {
     TopAppBar(
         title = title,
@@ -30,7 +30,7 @@ fun HamroBillAppBar(
         modifier = modifier,
         navigationIcon = {
             if (canNavigateBack) {
-                IconButton(onClick = navigateUp) {
+                IconButton(onClick = { navigateUp?.invoke() }) {
                     Icon(
                         imageVector = Icons.Filled.ArrowBack,
                         contentDescription = stringResource(R.string.back_button)
