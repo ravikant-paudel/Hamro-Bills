@@ -1,4 +1,4 @@
-package np.com.ravikant.hamrobill
+package np.com.ravikant.hamrobill.ui.screen.list
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer

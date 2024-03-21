@@ -73,6 +73,12 @@ dependencies {
     kapt("androidx.hilt:hilt-compiler:1.2.0")
     implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
 
+    // Lifecycle
+    val lifecycleVersion = "2.7.0"
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion")
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:$lifecycleVersion")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:$lifecycleVersion")
+
     // Room
     val roomVersion = "2.6.1"
     implementation("androidx.room:room-runtime:$roomVersion")

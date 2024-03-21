@@ -1,4 +1,4 @@
-package np.com.ravikant.hamrobill
+package np.com.ravikant.hamrobill.ui.util
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
@@ -10,6 +10,7 @@ import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import np.com.ravikant.hamrobill.R
 
 
 /**
